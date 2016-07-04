@@ -1,0 +1,47 @@
+*{
+    will-change: width , height, transition, position ;
+    box-sizing: border-box;
+    -webkit-transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+body{
+    margin: 0;
+}
+
+.box,#circle,#rect{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+.box {    
+    background: red;
+}
+
+#circle{
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#rect{
+    background-color: greenyellow;
+}
+
+.my-active-event{
+    background-color: purple !important;
+    margin: 0 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    border-radius: 0px !important;    
+}
+
+div[name = "smallbox"]{
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+}
