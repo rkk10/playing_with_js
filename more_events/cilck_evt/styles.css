@@ -1,0 +1,19 @@
+/* line 1, C:/Users/Ravindra/Documents/GitHub/playing_with_js/more_events/cilck_evt/styles.sass */
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+/* line 5, C:/Users/Ravindra/Documents/GitHub/playing_with_js/more_events/cilck_evt/styles.sass */
+
+header {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	border-radius: 50%;
+	box-shadow: -2px 2px 10px -1px rgba(0, 0, 0, 0.3);
+	float: left;
+	background: aquamarine;
+}
