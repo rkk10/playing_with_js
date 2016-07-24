@@ -1,0 +1,52 @@
+/* line 1, C:/Users/Ravindra/Documents/GitHub/playing_with_js/new_demo/sass/styles.sass */
+* {
+  margin: 0;
+  box-sizing: border-box; }
+
+/* line 5, C:/Users/Ravindra/Documents/GitHub/playing_with_js/new_demo/sass/styles.sass */
+body {
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial'; }
+
+/* line 12, C:/Users/Ravindra/Documents/GitHub/playing_with_js/new_demo/sass/styles.sass */
+.input-style {
+  height: 30px;
+  margin: 5px;
+  border: none;
+  border-bottom: 2px solid #4CAF50;
+  background: transparent;
+  color: gray;
+  outline: none;
+  font-size: 20px;
+  padding: 0 15px; }
+
+/* line 25, C:/Users/Ravindra/Documents/GitHub/playing_with_js/new_demo/sass/styles.sass */
+.form {
+  width: 400px;
+  height: 340px;
+  margin: 90px auto 0;
+  background: #fafafa;
+  border: 1px solid #e0dfdf;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  align-self: center; }
+
+/* line 38, C:/Users/Ravindra/Documents/GitHub/playing_with_js/new_demo/sass/styles.sass */
+input[type="submit"], input[type="reset"] {
+  width: 82px;
+  border: none;
+  margin: 2px auto;
+  border-bottom: 2px solid #1f95f3;
+  padding: 7px 14px;
+  background: #03A9F4;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: bolder; }
+
+/*# sourceMappingURL=styles.css.map */
