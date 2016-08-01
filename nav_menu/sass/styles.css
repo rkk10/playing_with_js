@@ -1,0 +1,195 @@
+/* line 4, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 350ms ease-in-out;
+    font-family: arial;
+}
+
+
+/* line 10, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+main {
+    height: 100vh;
+    width: 98.7vw;
+    display: flex;
+    flex-direction: row;
+    z-index: 0;
+}
+
+
+/* line 16, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+.aside-menu {
+    max-width: 250px;
+    height: 100%;
+    box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.2);
+    flex: 0 0 250px;
+    z-index: 1;
+    width: 90%;
+    position: absolute;
+    left: -350px;
+    will-change: translate;
+    background-color: white;
+    position: fixed;
+}
+
+
+/* line 29, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+nav {
+    width: 100%;
+    will-change: translate;
+}
+
+
+/* line 35, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+.head {
+    height: 120px;
+    width: 100%;
+    background-color: #E91E63;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+/* line 41, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+section {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* line 46, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+.sec-head {
+    height: 65px;
+    width: 100%;
+    background-color: #E91E63;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffe5ea;
+}
+
+
+/* line 57, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+.sec-head #menu_open {
+    height: 40px;
+    width: 40px;
+    background-image: url(../images/menu.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/* line 64, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+.sec-head #menu_open,
+.sec-head .search {
+    margin: 10px;
+}
+
+
+/* line 67, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+.msg-container {
+    margin-top: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* line 74, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+.msg-box {
+    width: 60%;
+    background-color: white;
+}
+
+
+/* line 78, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+.messege {
+    width: 100%;
+    height: 70px;
+    padding: 8px;
+    display: flex;
+}
+
+
+/* line 84, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+.circle {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background: rgba(255, 0, 87, 0.3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+/* line 96, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+.title {
+    height: 90%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+/* line 102, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+.main-title {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    color: rgba(70, 70, 70, 0.8);
+}
+
+
+/* line 108, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+.sub-title {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    color: rgba(128, 128, 128, 0.6);
+}
+
+
+/* line 115, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+
+.messege:hover,
+.messege:active {
+    background: #fff2f2;
+}
+
+
+/* @media query */
+
+@media screen and (max-width: 800px) {
+    /* line 123, C:/Users/Ravindra/Documents/GitHub/playing_with_js/nav_menu/sass/styles.sass */
+    .msg-box {
+        width: 100%;
+    }
+}
+
+
+/*# sourceMappingURL=styles.css.map */

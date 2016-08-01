@@ -28,7 +28,7 @@ submit.addEventListener('click', () => {
 
 
 
-	EMP_DETAIL.push(getDetails(emp_name, emp_cont, emp_addr, emp_email, emp_salary));
+	EMP_DETAIL.push(new Employee(emp_name, emp_cont, emp_addr, emp_email, emp_salary));
 });
 
 function Employee(emp_name, emp_cont, emp_addr, emp_email, emp_salary) {
@@ -44,9 +44,9 @@ function Employee(emp_name, emp_cont, emp_addr, emp_email, emp_salary) {
 
 }
 
-function getDetails(name, cont, address, email, sal) {
-
-	var details = new Employee(name, cont, address, email, sal);
-
-	return details;
-}
+//function getDetails(name, cont, address, email, sal) {
+//
+//	var details = new Employee(name, cont, address, email, sal);
+//
+//	return details;
+//}
