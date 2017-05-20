@@ -1,0 +1,36 @@
+/* line 1, C:/Users/Ravindra/Documents/GitHub/playing_with_js/create_element_using_js/styles.sass */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* line 5, C:/Users/Ravindra/Documents/GitHub/playing_with_js/create_element_using_js/styles.sass */
+
+.head {
+    height: 10vh;
+    width: 100vw;
+    background-color: red;
+}
+
+
+/* line 10, C:/Users/Ravindra/Documents/GitHub/playing_with_js/create_element_using_js/styles.sass */
+
+.sec {
+    height: 80vh;
+    width: 100vw;
+    background-color: green;
+}
+
+
+/* line 15, C:/Users/Ravindra/Documents/GitHub/playing_with_js/create_element_using_js/styles.sass */
+
+.foo {
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+}
+
+
+/*# sourceMappingURL=styles.css.map */

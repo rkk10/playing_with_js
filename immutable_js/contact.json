@@ -1,0 +1,59 @@
+{
+	contact: [
+		{
+			initial: "I",
+			name: "Infinity",
+			isFav: false
+		},
+		{
+			initial: "S",
+			name: "sumit",
+			isFav: false
+		},
+		{
+			initial: "T",
+			name: "Tanmay",
+			isFav: false
+		},
+		{
+			initial: "U",
+			name: "Umang",
+			isFav: false
+		},
+		{
+			initial: "V",
+			name: "Vaibhav",
+			isFav: false
+		},
+		{
+			initial: "W",
+			name: "Whastapp",
+			isFav: false
+		},
+		{
+			initial: "X",
+			name: "Xender",
+			isFav: false
+		},
+		{
+			initial: "Y",
+			name: "Yogita",
+			isFav: false
+		},
+		{
+			initial: "Z",
+			name: "Zakir",
+			isFav: false
+		},
+		{
+			initial: "A",
+			name: "Anant",
+			isFav: false
+		},
+		{
+			initial: "B",
+			name: "Bacchan",
+			isFav: false
+		},
+	]
+}
